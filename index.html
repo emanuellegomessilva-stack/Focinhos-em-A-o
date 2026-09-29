@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f7f2">
+  <meta name="description" content="Conheça os animais para adoção do Focinhos em Ação e descubra como apoiar o cuidado e a proteção animal.">
+  <title>Focinhos em Ação | Adoção e proteção animal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header">
+    <div class="nav-container">
+      <a class="brand" href="#inicio" aria-label="Focinhos em Ação, início">
+        <span class="logo-wrapper"><img src="Focinhos em ação.png" alt="" class="logo-img"></span>
+        <span class="logo-text">Focinhos <span class="highlight">em Ação</span></span>
+      </a>
+      <nav aria-label="Navegação principal">
+        <a href="#impacto">Nosso trabalho</a><a href="#adocao">Adoção</a><a href="#casos">Precisam de ajuda</a><a href="#ajuda">Como ajudar</a>
+        <a class="btn-primary nav-donate" href="#pix">Apoie a causa <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero container" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="tag-badge"><span aria-hidden="true">✳</span> Amor, cuidado e novos começos</div>
+        <h1 id="hero-title">Um lar muda tudo.<br><span class="gradient-text">Adote essa ideia.</span></h1>
+        <p>O Focinhos em Ação acredita que todo animal merece cuidado, segurança e uma família. Conheça nossos animais e descubra como você pode fazer parte dessa transformação.</p>
+        <div class="hero-actions"><a class="btn-primary" href="#adocao">Encontre seu novo amigo <span aria-hidden="true">→</span></a><a class="btn-secondary" href="#ajuda">Quero ajudar</a></div>
+        <p class="hero-note">A adoção responsável é um compromisso de amor para toda a vida.</p>
+      </div>
+      <div class="hero-image-wrap"><img src="cão e gato jjuntos.avif" alt="Cão e gato lado a lado, prontos para encontrar um lar" fetchpriority="high"><span class="image-note">Todo focinho merece uma chance</span></div>
+    </section>
+
+    <section id="impacto" class="container bento-grid" aria-label="Nosso compromisso">
+      <article class="bento-card"><span class="card-icon" aria-hidden="true">⌂</span><h2>Novos começos</h2><p>A adoção responsável abre caminho para uma vida mais segura e cheia de afeto.</p></article>
+      <article class="bento-card"><span class="card-icon" aria-hidden="true">♡</span><h2>Cuidado todos os dias</h2><p>Alimentação, atenção e acompanhamento veterinário fazem parte da recuperação.</p></article>
+      <article class="bento-card"><span class="card-icon" aria-hidden="true">✳</span><h2>Uma rede de apoio</h2><p>Doações, voluntariado e divulgação ajudam a fortalecer a proteção animal.</p></article>
+    </section>
+
+    <section class="container adoption-section" id="adocao" aria-labelledby="adocao-title">
+      <div class="section-header"><div><span class="eyebrow">Conheça quem espera por você</span><h2 id="adocao-title">Focinhos para adoção</h2></div><p>A adoção é gratuita e responsável. Encontre um companheiro que combine com a sua família.</p></div>
+      <div class="filter-container" role="group" aria-label="Filtrar animais por porte">
+        <button class="filter-btn active" type="button" aria-pressed="true" data-filter="todos">Todos</button><button class="filter-btn" type="button" aria-pressed="false" data-filter="pequeno">Porte pequeno</button><button class="filter-btn" type="button" aria-pressed="false" data-filter="medio">Porte médio</button><button class="filter-btn" type="button" aria-pressed="false" data-filter="grande">Porte grande</button>
+      </div>
+      <p class="filter-status" id="filter-status" aria-live="polite"></p>
+      <div class="cards-grid">
+        <article class="pet-card" data-porte="medio"><div class="card-image"><img src="thor medio porte.avif" alt="Thor, cão disponível para adoção" loading="lazy"><span class="badge-free">Para adoção</span></div><div class="card-content"><div class="pet-header"><h3>Thor</h3><span class="pet-tag">Médio · 2 anos</span></div><p>Castrado e dócil. Uma ótima companhia para famílias com crianças.</p><button class="btn-action" type="button" data-adopt="Thor">Falar sobre o Thor no WhatsApp <span aria-hidden="true">↗</span></button></div></article>
+        <article class="pet-card" data-porte="pequeno"><div class="card-image"><img src="Luna Pequeno Porte.jpg" alt="Luna, cadela de pequeno porte disponível para adoção" loading="lazy"><span class="badge-free">Para adoção</span></div><div class="card-content"><div class="pet-header"><h3>Luna</h3><span class="pet-tag">Pequeno · 1 ano</span></div><p>Calma e vacinada, ideal para quem busca uma companheira tranquila.</p><button class="btn-action" type="button" data-adopt="Luna">Falar sobre a Luna no WhatsApp <span aria-hidden="true">↗</span></button></div></article>
+        <article class="pet-card" data-porte="pequeno"><div class="card-image"><img src="Mel Porte Pequeno.jpg" alt="Mel, filhote de pequeno porte disponível para adoção" loading="lazy"><span class="badge-free">Para adoção</span></div><div class="card-content"><div class="pet-header"><h3>Mel</h3><span class="pet-tag">Pequeno · 6 meses</span></div><p>Filhote carinhosa e cheia de energia, já desverminada.</p><button class="btn-action" type="button" data-adopt="Mel">Falar sobre a Mel no WhatsApp <span aria-hidden="true">↗</span></button></div></article>
+        <article class="pet-card" data-porte="medio"><div class="card-image"><img src="Rex Porte Médio.jpg" alt="Rex, cão de porte médio disponível para adoção" loading="lazy"><span class="badge-free">Para adoção</span></div><div class="card-content"><div class="pet-header"><h3>Rex</h3><span class="pet-tag">Médio · 3 anos</span></div><p>Ativo e brincalhão, adora correr e aproveitar espaços ao ar livre.</p><button class="btn-action" type="button" data-adopt="Rex">Falar sobre o Rex no WhatsApp <span aria-hidden="true">↗</span></button></div></article>
+        <article class="pet-card" data-porte="medio"><div class="card-image"><img src="Pipoca porte medio .jpg" alt="Pipoca, cadela de porte médio disponível para adoção" loading="lazy"><span class="badge-free">Para adoção</span></div><div class="card-content"><div class="pet-header"><h3>Pipoca</h3><span class="pet-tag">Médio · 5 anos</span></div><p>Tranquila e paciente, uma companheira muito querida.</p><button class="btn-action" type="button" data-adopt="Pipoca">Falar sobre a Pipoca no WhatsApp <span aria-hidden="true">↗</span></button></div></article>
+        <article class="pet-card" data-porte="grande"><div class="card-image"><img src="Bob Porte Grande.jpg" alt="Bob, cão de porte grande disponível para adoção" loading="lazy"><span class="badge-free">Para adoção</span></div><div class="card-content"><div class="pet-header"><h3>Bob</h3><span class="pet-tag">Grande</span></div><p>Quer saber mais sobre o Bob? Entre em contato para conhecer sua história.</p><button class="btn-action" type="button" data-adopt="Bob">Falar sobre o Bob no WhatsApp <span aria-hidden="true">↗</span></button></div></article>
+      </div>
+    </section>
+
+    <section class="container space-top contact-section" id="contato" aria-labelledby="contato-title">
+      <div class="contact-copy">
+        <span class="eyebrow">Vamos conversar</span>
+        <h2 id="contato-title">Um novo amigo pode estar esperando por você.</h2>
+        <p>Conte um pouco sobre seu interesse. Ao enviar, a mensagem será aberta no WhatsApp para você revisar e encaminhar.</p>
+      </div>
+      <form class="contact-form" id="adoption-form">
+        <div class="form-field"><label for="contact-name">Seu nome</label><input id="contact-name" name="name" type="text" autocomplete="name" placeholder="Como podemos chamar você?" required></div>
+        <div class="form-field"><label for="contact-pet">Qual focinho chamou sua atenção?</label><select id="contact-pet" name="pet" required><option value="" selected disabled>Escolha um animal</option><option>Thor</option><option>Luna</option><option>Mel</option><option>Rex</option><option>Pipoca</option><option>Bob</option><option>Ainda não escolhi</option></select></div>
+        <div class="form-field"><label for="contact-message">Mensagem <span>(opcional)</span></label><textarea id="contact-message" name="message" rows="4" placeholder="Conte sua dúvida ou fale um pouco sobre o lar que pode oferecer."></textarea></div>
+        <button class="btn-primary form-submit" type="submit">Continuar pelo WhatsApp <span aria-hidden="true">↗</span></button>
+        <p class="form-note">O site não armazena os dados do formulário.</p>
+      </form>
+    </section>
+
+    <section id="casos" class="container space-top" aria-labelledby="casos-title">
+      <div class="section-header"><div><span class="eyebrow">Cuidado que transforma</span><h2 id="casos-title">Focinhos que precisam de ajuda</h2></div><p>Seu apoio pode ajudar nos tratamentos, na alimentação e nos cuidados após o resgate.</p></div>
+      <div class="cards-grid">
+        <article class="help-card"><img src="img.caramelo ferido.jfif" alt="Caramelo, em recuperação" loading="lazy"><div class="help-content"><span class="help-category">Cirurgia na pata</span><h3>Caramelo</h3><p>Precisa de apoio para realizar uma cirurgia na pata.</p><a class="btn-help" href="#pix">Apoiar este cuidado</a></div></article>
+        <article class="help-card"><img src="img.bela.jpg" alt="Bela" loading="lazy"><div class="help-content"><span class="help-category">Alimentação</span><h3>Bela</h3><p>Precisa de ajuda com ração e alimento.</p><a class="btn-help" href="#pix">Apoiar este cuidado</a></div></article>
+        <article class="help-card"><img src="cachorro machucado 2.png" alt="Tobias, em tratamento" loading="lazy"><div class="help-content"><span class="help-category">Tratamento de pele</span><h3>Tobias</h3><p>Precisa de apoio para continuar o tratamento de pele.</p><a class="btn-help" href="#pix">Apoiar este cuidado</a></div></article>
+        <article class="help-card"><img src="cachorro ferido 2.avif" alt="Fred" loading="lazy"><div class="help-content"><span class="help-category">Vacinação</span><h3>Fred</h3><p>Precisa de ajuda para receber a vacina V10.</p><a class="btn-help" href="#pix">Apoiar este cuidado</a></div></article>
+        <article class="help-card"><img src="cachorro ferido 3.avif" alt="Soneca" loading="lazy"><div class="help-content"><span class="help-category">Medicamentos</span><h3>Soneca</h3><p>Precisa de apoio com medicamentos de uso contínuo.</p><a class="btn-help" href="#pix">Apoiar este cuidado</a></div></article>
+        <article class="help-card"><img src="cachorro ferido 1.avif" alt="Pretinha" loading="lazy"><div class="help-content"><span class="help-category">Castração</span><h3>Pretinha</h3><p>Precisa de apoio para a castração após o resgate.</p><a class="btn-help" href="#pix">Apoiar este cuidado</a></div></article>
+      </div>
+    </section>
+
+    <section id="ajuda" class="container space-top" aria-labelledby="ajuda-title"><div class="section-header"><div><span class="eyebrow">Faça parte</span><h2 id="ajuda-title">Há muitas formas de ajudar</h2></div><p>Uma contribuição, seu tempo ou uma partilha podem fazer diferença.</p></div>
+      <div class="cards-grid help-options">
+        <article class="help-card help-option"><div class="help-content"><span class="help-emoji" aria-hidden="true">♡</span><h3>Ajude com alimentação</h3><p>Ração e itens essenciais ajudam a manter os animais acolhidos e bem cuidados.</p><a class="btn-help" href="#pix">Contribuir via PIX</a></div></article>
+        <article class="help-card help-option"><div class="help-content"><span class="help-emoji" aria-hidden="true">✚</span><h3>Apoie os cuidados</h3><p>Doações ajudam nas despesas com consultas, medicamentos e recuperação veterinária.</p><a class="btn-help" href="#pix">Contribuir via PIX</a></div></article>
+        <article class="help-card help-option"><div class="help-content"><span class="help-emoji" aria-hidden="true">↗</span><h3>Doe seu tempo</h3><p>Voluntários apoiam a rotina, divulgam os animais e ajudam a aproximá-los de uma família.</p><button class="btn-help" type="button" id="volunteer-button">Quero ser voluntário</button></div></article>
+      </div>
+    </section>
+
+    <section class="container space-top" id="pix" aria-labelledby="pix-title"><div class="pix-glass-box"><span class="badge-pix">Apoie o Focinhos em Ação</span><h2 id="pix-title">Sua ajuda cuida de cada focinho</h2><p>Contribua com os custos de alimentação e cuidado dos animais.</p><div class="pix-field"><code id="chave-pix">pix@focinhosemacao.org.br</code><button class="btn-primary" id="copy-pix" type="button">Copiar chave PIX</button></div><p class="pix-note">Confira o nome do destinatário no aplicativo do seu banco antes de confirmar a transferência.</p></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><div><a class="footer-brand" href="#inicio">Focinhos em Ação</a><p>Mais cuidado, proteção e novos lares.</p></div><button class="btn-secondary share-button" id="share-project" type="button">Compartilhe a causa <span aria-hidden="true">↗</span></button><p class="footer-hashtags">#FocinhosEmAção · #AdoçãoResponsável · #ProteçãoAnimal</p></div></footer>
+  <div class="site-notice" id="site-notice" role="status" aria-live="polite"></div>
+  <script src="script.js" defer></script>
+</body>
+</html>
